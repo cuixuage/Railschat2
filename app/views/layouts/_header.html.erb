@@ -16,7 +16,12 @@
                 ChatRoom  <i class="fa fa-wechat"></i>
             <% end %>
           </li>
-
+          <!--加入 新的朋友请求标签 -->
+          <li>
+            <%= link_to friendships_path, class: "dropbtn" do %>
+                newfriend <i class="fa fa-wechat"></i>
+            <% end %>
+          </li>
           <li>
             <%= link_to user_path(current_user), class: "dropbtn" do %>
                 <%= current_user.name %> <span class="glyphicon glyphicon-user"></span>
@@ -42,6 +47,8 @@
 </nav>
 
 <%= render 'layouts/login_panel' %>
+<!--    如何使用区别呢？  -->
+<%= render 'layouts/sign_panel' %>
 
 
 
