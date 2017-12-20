@@ -33,6 +33,9 @@
                   <%= link_to user_path(user), class: 'btn btn-info btn-block', role: "button", style: "border-radius: 0" do %>
                       <i class="fa fa-angle-right"></i> 用户详情
                   <% end %>
+                  <%= link_to blog_path(user), class: 'btn btn-info btn-block', role: "button", style: "border-radius: 0" do %>
+                      <i class="fa fa-angle-right"></i> Blog
+                  <% end %>
                   <%= link_to friendship_path(user), method: :delete, class: 'btn btn-danger btn-block', role: "button", style: "border-radius: 0;margin:0px;" do %>
                       <i class="fa fa-angle-right"></i> 删除用户
                   <% end %>

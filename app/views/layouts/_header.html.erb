@@ -24,11 +24,17 @@
           </li>
 
           <li>
+            <%= link_to blog_path(1), class: "dropbtn" do %>
+               MyBlog <span class="glyphicon glyphicon-user"></span>
+            <% end %>
+          </li>
+
+          <li>
             <%= link_to sessions_logout_path, method: :delete, class: "dropbtn" do %>
                 loggout <span class="	glyphicon glyphicon-off"></span>
             <% end %>
           </li>
-
+         
       <% end %>
     </ul>
   </div>

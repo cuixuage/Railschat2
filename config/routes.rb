@@ -59,7 +59,8 @@ Rails.application.routes.draw do
     collection do
       get :index_json
     end
-  end
+  end  
+  resources :blogs
   resources :salaries
   resources :performances
   resources :announcements

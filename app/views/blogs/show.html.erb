@@ -1,0 +1,16 @@
+<div class="panel panel-default">
+  <div class="panel-heading"> 
+    <p>
+      <strong>Title:</strong>
+      <%= @blog.title %>
+    </p>
+
+    <p>
+      <strong>Text:</strong>
+      <%= @blog.text %>
+    </p>
+  </div>
+</div>
+
+<%= link_to 'Back', blogs_path %>
+<%= link_to 'Edit', edit_blog_path(@blog )%>

@@ -1,0 +1,23 @@
+<div class="blog_background1">
+  <div class="col-sm-8">
+    <div class="panel panel-default">
+      <div class="panel-heading">          
+        <%= form_for :blog, url: blogs_path do |f| %>
+        <p>
+          <%= f.label :title %><br>
+          <%= f.text_field :title %>
+        </p>
+ 
+        <div>
+          <%= f.label :text %><br>
+          <%= f.text_area :text %>
+        </div>
+  
+        <p>
+          <%= f.submit %>
+        </p>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

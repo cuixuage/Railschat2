@@ -1,0 +1,18 @@
+// Place all the styles related to the blogs controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#blog_background1{
+   background-image: url('background1.jpg');
+   background-position: right bottom;
+   background-repeat:no-repeat;
+   padding: 15px; 
+}
+
+#blog_background2{
+   background-image: url('background2.jpg');
+   background-position: right bottom;
+   background-repeat:no-repeat;
+   padding: 15px;
+}
+
